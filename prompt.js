@@ -12,7 +12,7 @@ var score = function(){
 	if (score >=1 && score<30) {
 	 result = "Hey, maybe you should get out more, creeper.";
 	}
-	if (score.length =0 ){
+	if (score.length ===0 || score >100 ){
 		result = "Hold up, you gotta enter a number between 1-100."
 	}
 	alert(result);
